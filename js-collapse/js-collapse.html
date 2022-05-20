@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Collapsible Navbar</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<ul class="topnav responsive" id="myTopnav">
+			<label class="logo"> Online CV </label>
+			<a href="#about">About</a>
+			<a href="#education">Education</a>
+			<a href="#skills">Skills</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#contact">Contact</a>
+
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars">
+				</i>
+			</a>
+		</ul>
+	</div>
+	<center>
+		<br></br>
+		<br></br>
+		<div class="page-content">
+				<h1> <br> <img src="abe.jpg" width="350" height="400"> </br> </h1>
+				<h2>Hi! I'm Abe</h2>
+				<h3>BS in Information Technology</h3>
+			</div>
+			<div class="card" id="about">
+				<p class="card-header">About</p>
+				<p class="card-body">
+				<p>Annyeong! Hi everyone, My name is Abegail A. Trani.
+					you can call me Abe for short. I lived in Zone 2, Canitoan CDOC.
+					I enjoy watching Korean dramas, reading wattpads or books, and listening to music.
+					I also enjoy dancing, though dancing does not love me. I'm a happy person who is easy to get along
+					with.
+					I also believed "Worked hard till your signature became an autograph". Thankyou!!</p>
+				</p>
+				<br />
+				<br />
+			</div>
+
+			<div class="card" id="education">
+				<p class="card-header">Education</p>
+				<p class="card-body">
+					<br /> Currently a second-year student at the University of Science and Technology of the Southern
+					Philippines,
+					pursuing Bachelor of Science in Information Technology.
+				</p>
+				<br />
+				<br />
+				<br />
+
+			</div>
+
+			<div class="card" id="skills">
+				<p class="card-header">Skills</p>
+				<p class="card-body">
+					<li>Computer proficiency in Microsoft Word,
+						Excel, PowerPoint, and Outlook </li>
+					<li>Communication</li>
+					<li>Planning</li>
+					<li> Detail oriented & reliable </li>
+					<br />
+					<br />
+			</div>
+
+			<div class="card" id="portfolio">
+				<p class="card-header">Portfolio</p>
+				<p class="card-body">
+				<p>Name : Abegail A. Trani</p>
+				<p>Birthdate : April 05, 2002</p>
+				<p>Birthplace : Elsavador City, Misamis Oriental</p>
+				<p>Age : 20 years old</p>
+				<br />
+			</div>
+
+			<div class="card" id="contact">
+				<p class="card-header">Contact</p>
+				<p class="card-body">
+				<p>Phone Number : 09655639213</p>
+				<p>Email : abearagan@gmail.com</p>
+				<p>Facebook Account: Abegail Abragan Trani</p>
+				<p>Facebook Account Link : https://www.facebook.com/abegail.trani.3 </p>
+				<br />
+			</div>
+		</div>
+		<script>
+
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className == "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+</body>
+<footer>
+	<br>
+	<p> No Copyright Infringement Intended </p> </br>
+</footer>
+</center>
+<html>
